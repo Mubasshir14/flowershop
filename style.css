@@ -126,3 +126,22 @@ header {
     text-decoration-line: underline;
     margin-top: 16px;
 }
+.icon-section{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 0 120px 130px 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.icon-container{
+    padding: 90px 0;
+    text-align: center;
+}
+
+.icon-text{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    margin-top: 24px;
+}
