@@ -48,7 +48,8 @@ button {
     margin-bottom: 16px;
 }
 
-header {
+header,
+#hot-deal {
     background: rgba(229, 84, 115, 0.10);
 }
 
@@ -126,7 +127,8 @@ header {
     text-decoration-line: underline;
     margin-top: 16px;
 }
-.icon-section{
+
+.icon-section {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin: 0 120px 130px 120px;
@@ -135,13 +137,119 @@ header {
     align-items: center;
     gap: 100px;
 }
-.icon-container{
+
+.icon-container {
     padding: 90px 0;
     text-align: center;
 }
 
-.icon-text{
+.icon-text {
     color: rgba(39, 39, 39, 0.80);
     font-size: 18px;
     margin-top: 24px;
+}
+
+.hot-deal-main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+}
+
+#hot-deal .hot-deal-text {
+    width: 75%;
+    max-width: 450px;
+    text-align: center;
+}
+
+#hot-deal .hot-deal-text h2 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+    
+}
+#hot-deal .hot-deal-text p{
+    margin-bottom: 24px;
+}
+#hot-deal .hot-deal-text button{
+    margin-bottom: 24px;
+}
+#hot-deal .hot-deal-img{
+    max-width: 318px;
+}
+#hot-deal .hot-deal-text h2 .imp{
+    color: #E55473;
+font-family: Lato;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.instagram-section{
+    margin: 0 0 130px 0;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 120px;
+    margin-top: 50px;
+    
+}
+
+.image-container img{
+    width: 250px;
+}
+#newslatter{
+    margin: 128px 0;
+}
+.newslatter-main{
+    background: url("images/newslatter.png");
+    padding: 122px 0;
+}
+#newslatter form{
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    gap: 10px;
+}
+#newslatter form input{
+   flex-grow: 1;border: none;
+   border-radius: 5px;
+   padding: 10px;
+   font-size: 15px;
+   outline: none;
+}
+footer{
+    background: #111010;
+    padding: 128px 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    
+}
+.footer-text{
+    color: #FFF;
+}
+.footer-heading{
+    color: #FFF;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.footer-paragraph{
+    color: rgba(255, 255, 255, 0.90);
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+.footer-rights{
+    color: rgba(255, 255, 255, 0.40);
+}
+.primary-color{
+    color: #E55473;
 }
